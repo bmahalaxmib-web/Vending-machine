@@ -1,0 +1,25 @@
+---------------------------------------------
+          VENDING MACHINE TEST
+        ITEM PRICE = ₹15
+---------------------------------------------
+
+TEST 1: INSERT ₹5 + ₹10
+TIME=36 ns | COIN=₹5  | DISPENSE=0 | CHANGE_₹5=0
+TIME=56 ns | COIN=₹10 | DISPENSE=1 | CHANGE_₹5=0
+
+TEST 2: INSERT ₹10 + ₹5
+TIME=76 ns | COIN=₹10 | DISPENSE=0 | CHANGE_₹5=0
+TIME=96 ns | COIN=₹5  | DISPENSE=1 | CHANGE_₹5=0
+
+TEST 3: INSERT ₹10 + ₹10
+TIME=116 ns | COIN=₹10 | DISPENSE=0 | CHANGE_₹5=0
+TIME=136 ns | COIN=₹10 | DISPENSE=1 | CHANGE_₹5=1
+
+TEST 4: INSERT ₹5 + ₹5 + ₹5
+TIME=156 ns | COIN=₹5  | DISPENSE=0 | CHANGE_₹5=0
+TIME=176 ns | COIN=₹5  | DISPENSE=0 | CHANGE_₹5=0
+TIME=196 ns | COIN=₹5  | DISPENSE=1 | CHANGE_₹5=0
+
+---------------------------------------------
+          SIMULATION COMPLETE
+---------------------------------------------
